@@ -27,7 +27,7 @@
         <Grid Grid.Row="0" Background="#FF76E383">
             <Image Width="45" Height="45" HorizontalAlignment="Left" Margin="5" Source="/Resources/logo.png"/>
             <Button x:Name="btnBack" HorizontalAlignment="Right" Content="Назад" Click="btnBack_Click"/>
-            <Label x:Name="name" HorizontalAlignment="Center" Content="Тажбаёв Тимур"/>
+            <Label x:Name="name" HorizontalAlignment="Center" Content="Тажбаев Тимур" FontSize="18" FontFamily="Arial Black" Width="222"/>
         </Grid>
         <Frame x:Name="FrmMain" Grid.Row="1" NavigationUIVisibility="Hidden" ContentRendered="FrmMain_ContentRendered"/>
     </Grid>
